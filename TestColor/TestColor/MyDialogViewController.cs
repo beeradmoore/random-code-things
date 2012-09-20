@@ -18,6 +18,7 @@ namespace TestColor
 			///View.BackgroundColor = UIColor.Brown;
 			//TableView.BackgroundColor = UIColor.Brown;
 
+			Root.Add(new Section("Color Test"){new StringElement("Color for BigBob85 Test")});
 			
 			this.TableView.BackgroundColor = UIColor.Clear;
 			this.TableView.SeparatorColor = UIColor.Clear;
