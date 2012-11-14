@@ -1,3 +1,7 @@
 TestColor/TestColor/bin/*
 *.userprefs
 TestColor/TestColor/obj/*
+.DS_Store
+
+*/obj/*
+NumberCruncher/NumberCruncher/obj/*
