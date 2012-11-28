@@ -20,9 +20,12 @@ namespace TestColor
 
 			Root.Add(new Section("Color Test"){new StringElement("Color for BigBob85 Test")});
 			
-			this.TableView.BackgroundColor = UIColor.Clear;
-			this.TableView.SeparatorColor = UIColor.Clear;
-			this.TableView.SeparatorStyle = UITableViewCellSeparatorStyle.None;
+			//this.TableView.BackgroundColor = UIColor.Clear;
+			//this.TableView.SeparatorColor = UIColor.Clear;
+			this.TableView.BackgroundView = null;
+
+
+			//this.TableView.SeparatorStyle = UITableViewCellSeparatorStyle.None;
 			this.View.BackgroundColor = UIColor.Brown;
 		}
 
