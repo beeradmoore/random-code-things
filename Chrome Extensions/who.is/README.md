@@ -1,4 +1,4 @@
-chrome-extensions
+who.is chrome extension
 =================
 
 To get this sample to run in chrome simply open up your chrome extensions page (chrome://extensions/) and click the "Developer mode" checkbox.
@@ -6,5 +6,6 @@ Now click the "Load unpacked extension..." button and select the directory of th
 This should now be loaded.
 
 To run it, open a new tab and type whois infront of a url.
->> whois google.com
-Then you suddenly get a who.is whois search.
+> whois google.com
+
+Then you instantly get a who.is whois search result.
