@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Who.is search",
+	"description": "This extension adds who.is search to chrome via the whois command in your omnibar.",
+	"version": "1.0",
+	"omnibox": {
+		"keyword" : "whois"
+	},
+	"icons": {
+	  "16": "icon16.png",
+	  "48": "icon48.png"
+	},
+	"background": {
+	  "scripts": ["background.js"]
+	}
+}
